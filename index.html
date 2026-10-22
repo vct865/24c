@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f8f5ef">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<title>人类高光瞬间 · 改变世界的 11 个「就那一下」</title>
+<meta name="description" content="从人类用火与文字，到青霉素、PCR 和万维网——11 个值得回望的历史与科学瞬间。故事有趣，史实也要经得起查证；传闻会标明，证据不夸大。">
+<meta property="og:title" content="人类高光瞬间">
+<meta property="og:description" content="从人类用火与文字，到青霉素、PCR 和万维网——11 个值得回望的历史与科学瞬间。">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="人类高光瞬间 · 改变世界的 11 个「就那一下」">
+<meta name="twitter:description" content="从人类用火与文字，到青霉素、PCR 和万维网。用好故事理解改变世界的历史瞬间。">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "人类高光瞬间",
+      "inLanguage": "zh-CN",
+      "description": "用故事理解改变历史与科学的关键瞬间，区分可核实的事实与流传轶事。",
+      "about": [
+        {"@type": "Thing", "name": "人类历史"},
+        {"@type": "Thing", "name": "科学史"},
+        {"@type": "Thing", "name": "技术创新"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "人类高光瞬间：11 个历史与科学节点",
+      "numberOfItems": 11,
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"人类控制火"},
+        {"@type":"ListItem","position":2,"name":"早期文字与楔形文字"},
+        {"@type":"ListItem","position":3,"name":"阿基米德与浮力原理"},
+        {"@type":"ListItem","position":4,"name":"伦琴发现 X 射线"},
+        {"@type":"ListItem","position":5,"name":"冰棍的商业化"},
+        {"@type":"ListItem","position":6,"name":"青霉素的发现与发展"},
+        {"@type":"ListItem","position":7,"name":"微波炉的诞生"},
+        {"@type":"ListItem","position":8,"name":"正电子的发现"},
+        {"@type":"ListItem","position":9,"name":"气泡室与粒子物理"},
+        {"@type":"ListItem","position":10,"name":"PCR 与 DNA 扩增"},
+        {"@type":"ListItem","position":11,"name":"万维网的诞生"}
+      ]
+    }
+  ]
+}
+</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='%2314110d'/%3E%3Cpath d='M16 7c3 4 6 6.5 6 11a6 6 0 1 1-12 0c0-4.5 3-7 6-11z' fill='%23f2a35c'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<style>
+  :root{
+    --bg:#f8f5ef; --ink:#1d1a16; --muted:#8a8378; --line:rgba(29,26,22,.14);
+    --serif:"Noto Serif SC", serif; --sans:"Noto Sans SC", system-ui, sans-serif;
+  }
+  /* 第十四轮：键盘可见焦点、减少动态效果，避免只顾视觉而漏掉基础可用性 */
+  :focus-visible{outline:3px solid #b66a2c;outline-offset:3px;border-radius:4px;}
+  @media(prefers-reduced-motion:reduce){
+    *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;}
+  }
+  html.dark{
+    --bg:#16130f; --ink:#f0ebe2; --muted:#9a9186; --line:rgba(240,235,226,.16);
+  }
+  html.dark body{background:var(--bg);}
+  html.dark .topbar{background:linear-gradient(to bottom, rgba(22,19,15,.88), rgba(22,19,15,.45));}
+  html.dark .top-actions .tbtn{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.14);color:var(--muted);box-shadow:none;}
+  html.dark .overlay{background:rgba(22,19,15,.97);}
+  .source-list{padding-left:20px;display:grid;gap:8px;margin-top:10px;}
+  .source-list a{color:var(--ink);text-decoration-color:var(--muted);text-underline-offset:3px;overflow-wrap:anywhere;}
+  .source-list a:hover{color:#d87925;}
+  .source-note{font-size:12px;color:var(--muted);margin-top:12px;line-height:1.7;}
+  .tbtn{display:inline-flex;align-items:center;gap:6px;}
+  .i-moon{display:none;}
+  html.dark .i-sun{display:none;}
+  html.dark .i-moon{display:block;}
+  html.dark .hint-toast{background:#f0ebe2;color:#16130f;}
+  html.dark .nav-arrow{background:rgba(40,34,26,.6);color:#f0ebe2;}
+  .topbar,body{transition:background .3s,color .3s;}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--ink);font-family:var(--sans);}
+  body{-webkit-font-smoothing:antialiased;}
+  body::after{content:"";position:fixed;inset:0;z-index:40;pointer-events:none;opacity:.04;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
+
+  .topbar{
+    position:fixed;top:0;left:0;right:0;z-index:20;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:16px 28px;
+    background:linear-gradient(to bottom, rgba(248,245,239,.8), rgba(248,245,239,.4));
+    backdrop-filter:blur(14px) saturate(1.4);-webkit-backdrop-filter:blur(14px) saturate(1.4);
+  }
+  .logo{font-family:var(--serif);font-weight:800;font-size:16px;letter-spacing:.05em;color:var(--ink);cursor:pointer;}
+  .logo span{color:var(--ember,#e8842c);}
+  .top-actions{display:flex;gap:10px;}
+  .tbtn{
+    background:rgba(255,255,255,.45);border:1px solid rgba(255,255,255,.6);color:var(--muted);
+    box-shadow:0 1px 3px rgba(60,40,20,.06), inset 0 1px 0 rgba(255,255,255,.7);
+    backdrop-filter:blur(10px) saturate(1.5);-webkit-backdrop-filter:blur(10px) saturate(1.5);
+    font-size:13px;letter-spacing:.1em;padding:8px 16px;border-radius:999px;cursor:pointer;transition:.2s;font-family:var(--sans);
+  }
+  .tbtn:hover{color:var(--ink);background:rgba(255,255,255,.7);}
+
+  .stage{position:fixed;inset:0;z-index:1;}
+  .slide{
+    position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;
+    padding:9vh 8vw 12vh;
+    background:var(--bg);
+    opacity:0;visibility:hidden;transform:translateX(14px);
+    will-change:transform,opacity;backface-visibility:hidden;-webkit-backface-visibility:hidden;
+    transition:opacity .26s cubic-bezier(.22,.61,.36,1), transform .26s cubic-bezier(.22,.61,.36,1), visibility .26s;
+  }
+  .slide.prev{transform:translateX(-14px);}
+  .slide.active{opacity:1;visibility:visible;transform:translateX(0);}
+
+  .hint-toast{
+    position:fixed;left:50%;bottom:48px;transform:translateX(-50%) translateY(20px);
+    z-index:25;background:rgba(29,26,22,.82);color:#f8f5ef;font-size:13px;letter-spacing:.05em;
+    padding:10px 18px;border-radius:999px;backdrop-filter:blur(8px);
+    opacity:0;pointer-events:none;transition:.4s;white-space:nowrap;
+  }
+  .hint-toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+
+  .eyebrow{display:inline-flex;align-items:center;gap:.6em;width:fit-content;font-size:clamp(12px,1.1vw,14px);letter-spacing:.3em;color:var(--acc,#e07b2a);margin-bottom:1.6vh;font-weight:500;}
+  .eyebrow::before{content:"";width:2.2em;height:1px;background:var(--acc,#e07b2a);opacity:.7;}
+  .hook{font-family:var(--serif);font-weight:600;font-style:italic;font-size:clamp(15px,1.6vw,20px);color:var(--acc,#e07b2a);margin-bottom:1.4vh;}
+  h1.title{font-family:var(--serif);font-weight:900;font-size:clamp(28px,4.6vw,62px);line-height:1.14;letter-spacing:-.01em;margin-bottom:2.4vh;max-width:16ch;}
+  h1.title em{font-style:normal;color:var(--acc,#e07b2a);}
+  .story{font-size:clamp(15px,1.5vw,19px);line-height:1.85;color:var(--ink);max-width:34em;font-weight:300;margin-bottom:2.6vh;}
+  .story b{color:var(--acc,#e07b2a);font-weight:500;}
+  .why{display:flex;gap:14px;align-items:flex-start;max-width:34em;border-left:2px solid var(--acc,#e07b2a);padding-left:16px;margin-bottom:2.2vh;}
+  .why .tag{font-size:11px;letter-spacing:.2em;color:var(--acc,#e07b2a);margin-bottom:4px;font-weight:700;}
+  .why p{font-size:clamp(13px,1.3vw,16px);line-height:1.7;color:var(--muted);font-weight:300;}
+
+  .moment{display:grid;grid-template-columns:1.05fr .95fr;gap:5vw;align-items:center;background:radial-gradient(120% 120% at 85% 50%, var(--glow,rgba(232,132,44,.10)), transparent 60%), var(--bg);}
+  .moment .visual{position:relative;border-radius:18px;overflow:hidden;box-shadow:0 30px 70px rgba(60,40,20,.20), 0 2px 6px rgba(60,40,20,.08);}
+  .moment .visual::after{content:"";position:absolute;inset:0;border-radius:18px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25), inset 0 -40px 60px -30px rgba(20,15,8,.35);pointer-events:none;}
+  .visual img{width:100%;height:56vh;object-fit:cover;display:block;backface-visibility:hidden;-webkit-backface-visibility:hidden;transform:scale(1.0);transition:transform 7s cubic-bezier(.2,.6,.2,1);}
+  .slide.active .visual img{transform:scale(1.07);}
+
+  /* 文字分层入场：眉标 → hook → 标题 → 故事 → 为什么 → 按钮 */
+  .moment .text > *{opacity:0;transform:translateY(8px);transition:opacity .28s ease-out, transform .28s ease-out;}
+  .slide.active .moment .text > *, .moment.slide.active .text > *{opacity:1;transform:none;}
+  .moment .text > *:nth-child(1){transition-delay:.01s}
+  .moment .text > *:nth-child(2){transition-delay:.04s}
+  .moment .text > *:nth-child(3){transition-delay:.07s}
+  .moment .text > *:nth-child(4){transition-delay:.11s}
+  .moment .text > *:nth-child(5){transition-delay:.15s}
+
+  .deepbtn{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.4);border:1px solid rgba(255,255,255,.6);color:var(--acc,#e8842c);
+    box-shadow:0 1px 3px rgba(60,40,20,.08), inset 0 1px 0 rgba(255,255,255,.7);
+    backdrop-filter:blur(10px) saturate(1.5);-webkit-backdrop-filter:blur(10px) saturate(1.5);
+    font-size:13px;letter-spacing:.15em;padding:9px 18px;border-radius:999px;cursor:pointer;transition:.25s;font-family:var(--sans);}
+  .deepbtn:hover{background:var(--acc,#e8842c);color:#fff;}
+
+  .cover{background:radial-gradient(120% 100% at 72% 28%, rgba(232,132,44,.16), transparent 58%), var(--bg);}
+  .cover::before{content:"11";position:absolute;right:4vw;bottom:2vh;font-family:var(--serif);font-weight:900;font-size:34vw;line-height:.8;color:rgba(224,123,42,.08);letter-spacing:-.05em;pointer-events:none;user-select:none;}
+  .cover .kicker{font-size:clamp(13px,1.3vw,16px);letter-spacing:.4em;color:var(--muted);margin-bottom:3vh;}
+  .cover h1{font-family:var(--serif);font-weight:900;font-size:clamp(52px,10.2vw,136px);line-height:1.01;letter-spacing:-.035em;}
+  .cover h1 span{color:#e8842c;}
+  .cover .sub{margin-top:3.5vh;max-width:30em;font-size:clamp(15px,1.5vw,19px);line-height:1.8;color:var(--muted);font-weight:300;}
+  .cover .hint{margin-top:5vh;color:#e07b2a;font-size:14px;letter-spacing:.15em;}
+  .cover .cover-meta{display:flex;align-items:center;gap:10px;margin-top:2.5vh;color:var(--muted);font-size:12px;letter-spacing:.12em;}
+  .cover .cover-meta::before{content:"";width:28px;height:1px;background:#e8842c;}
+  .cover .cover-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:3.2vh;}
+  .cover-action{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:46px;padding:0 20px;border-radius:999px;border:1px solid #e8842c;background:#e8842c;color:#fff;font:500 14px var(--sans);letter-spacing:.08em;cursor:pointer;box-shadow:0 8px 24px rgba(232,132,44,.18);transition:transform .2s,box-shadow .2s,background .2s;}
+  .cover-action:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(232,132,44,.25);}
+  .cover-action.secondary{background:transparent;color:var(--ink);border-color:var(--line);box-shadow:none;}
+  .cover-action.secondary:hover{border-color:#e8842c;color:#e8842c;}
+  .cover-note{margin-top:14px;font-size:12px;line-height:1.7;color:var(--muted);letter-spacing:.03em;}
+  .cover .fade-up{opacity:0;transform:translateY(20px);animation:fadeUp .8s forwards;}
+  .cover .d1{animation-delay:.2s}.cover .d2{animation-delay:.6s}.cover .d3{animation-delay:1.1s}.cover .d4{animation-delay:1.6s}
+  @keyframes fadeUp{to{opacity:1;transform:translateY(0);}}
+
+  .timeline{display:flex;flex-direction:column;gap:0;max-width:60em;margin-top:2vh;}
+  .tl-row{display:grid;grid-template-columns:7em 2em 1fr;align-items:center;padding:9px 0;cursor:pointer;border-radius:8px;transition:.15s;}
+  .tl-row:hover{background:rgba(29,26,22,.05);}
+  .tl-era{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums;text-align:right;padding-right:14px;}
+  .tl-dot{width:11px;height:11px;border-radius:50%;background:var(--dot,#e07b2a);justify-self:center;box-shadow:0 0 0 4px rgba(255,255,255,.04);}
+  .tl-t{font-size:clamp(14px,1.4vw,17px);color:var(--ink);}
+  .tl-row:hover .tl-t{color:var(--dot,#e07b2a);}
+
+  .finale .big{font-family:var(--serif);font-weight:800;font-size:clamp(20px,2.4vw,30px);color:#e07b2a;margin:3vh 0 2vh;max-width:22em;line-height:1.5;}
+
+  .hud{position:fixed;left:0;right:0;bottom:0;z-index:15;padding:0 3vw 2vh;pointer-events:none;}
+  .bar{height:2px;background:var(--line);}
+  .bar i{display:block;height:100%;width:0;background:#e07b2a;transition:width .5s, background .5s;}
+  .counter{margin-top:8px;font-size:12px;letter-spacing:.2em;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums;}
+  .counter b{color:var(--ink);}
+  .dots{display:none;}
+
+  .zone{display:none;}
+  .zone.left{left:0}.zone.right{right:0}
+
+  .nav-arrow{
+    position:fixed;top:50%;transform:translateY(-50%);
+    width:46px;height:46px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    color:var(--ink);opacity:0;pointer-events:none;z-index:12;cursor:pointer;
+    background:rgba(255,255,255,.5);backdrop-filter:blur(12px) saturate(1.5);-webkit-backdrop-filter:blur(12px) saturate(1.5);
+    box-shadow:0 2px 14px rgba(60,40,20,.1), inset 0 1px 0 rgba(255,255,255,.7);
+    transition:opacity .28s ease;
+  }
+  .nav-arrow.prev{left:14px}.nav-arrow.next{right:14px}
+  .nav-arrow.show{opacity:.65;pointer-events:auto;}
+  .nav-arrow:hover{opacity:1;}
+  @media (max-width:820px){ .nav-arrow{width:40px;height:40px;} .nav-arrow.prev{left:8px}.nav-arrow.next{right:8px} }
+  .nav-arrow.disabled{opacity:0 !important;pointer-events:none !important;}
+  body{touch-action:manipulation;}
+  .stage,.slide{-webkit-user-select:none;user-select:none;}
+  .stage.bounce{animation:bounceX .36s ease;}
+  @keyframes bounceX{0%{transform:translateX(0)}30%{transform:translateX(14px)}60%{transform:translateX(-7px)}100%{transform:translateX(0)}}
+  img{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;}
+
+  .overlay{position:fixed;inset:0;z-index:30;background:rgba(248,245,239,.97);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;transition:.35s;}
+  .overlay.open{opacity:1;visibility:visible;}
+  .ov-card{max-width:640px;width:90%;max-height:80vh;max-height:80dvh;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:40px 44px;}
+  .ov-card h2{font-family:var(--serif);font-size:28px;margin-bottom:6px;color:var(--ink);}
+  .ov-era{color:var(--acc,#e8842c);font-size:13px;letter-spacing:.2em;margin-bottom:24px;}
+  .ov-sec{margin-bottom:22px;}
+  .ov-sec h4{font-size:12px;letter-spacing:.2em;color:var(--acc,#e8842c);margin-bottom:8px;}
+  .ov-sec p{font-size:15px;line-height:1.8;color:var(--ink);font-weight:300;}
+  .ov-egg{background:rgba(232,132,44,.10);border-left:2px solid #e8842c;padding:12px 16px;border-radius:0 8px 8px 0;margin:18px 0;}
+  .ov-rel{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px;}
+  .chip{border:1px solid var(--line);color:var(--muted);font-size:13px;padding:7px 14px;border-radius:999px;cursor:pointer;transition:.2s;background:transparent;font-family:var(--sans);}
+  .chip:hover{color:var(--ink);border-color:var(--ink);}
+  .ov-close{position:fixed;top:24px;right:28px;background:transparent;border:1px solid var(--line);color:var(--ink);width:42px;height:42px;border-radius:50%;font-size:18px;cursor:pointer;}
+  .ov-close:hover{border-color:#e8842c;color:#e8842c;}
+  .ov-close:focus-visible{outline:2px solid #e8842c;outline-offset:4px;}
+  .overlay.open{overscroll-behavior:contain;}
+  button:focus-visible,.tl-row:focus-visible,.logo:focus-visible{outline:2px solid #e8842c;outline-offset:4px;}
+
+  @media (max-width:820px){
+    .topbar{position:fixed;padding:12px 16px calc(12px + env(safe-area-inset-top));background:#f8f5ef;}
+    html.dark .topbar{background:#16130f;}
+    .slide{padding:140px 7vw 120px;justify-content:flex-start;overflow-y:auto;-webkit-overflow-scrolling:touch;}
+    .moment{display:flex;flex-direction:column;}
+    .visual{order:-1;margin:0 0 22px;flex:none;}
+    .visual img{height:220px;object-position:center 30%;transform:none !important;}
+    .slide.active .visual img{transform:none !important;}
+    .zone{width:20vw;}
+    .tl-row{grid-template-columns:6em 1.6em 1fr;}
+    .hud{padding-bottom:14px;}
+    .counter{font-size:14px;margin-top:10px;}
+    .topbar{gap:10px;}
+    .logo{font-size:14px;}
+    .cover .cover-actions{gap:8px;margin-top:2.4vh;}
+    .cover-action{min-height:44px;padding:0 16px;font-size:13px;}
+    .cover .cover-meta{font-size:11px;letter-spacing:.06em;}
+    .cover-note{max-width:28em;}
+    .ov-card{width:94%;max-height:82vh;max-height:82dvh;padding:28px 22px;}
+    .slide{padding-top:calc(104px + env(safe-area-inset-top));padding-bottom:calc(92px + env(safe-area-inset-bottom));}
+    .moment .story{line-height:1.75;}
+    .ov-sec p{font-size:15px;line-height:1.85;}
+    .ov-card h2{font-size:24px;}
+    .ov-close{top:calc(12px + env(safe-area-inset-top));right:16px;width:38px;height:38px;}
+  }
+  @media (max-width:420px){
+    .topbar{align-items:flex-start;}
+    .top-actions{max-width:70%;}
+    .tbtn{padding:6px 9px;letter-spacing:0;}
+    .cover h1{font-size:clamp(48px,14.2vw,72px);line-height:1.02;}
+    .cover .sub{max-width:23em;}
+    .cover-action{padding:0 13px;}
+  }
+  @media (max-width:820px){
+    .top-actions{gap:6px;flex-wrap:wrap;justify-content:flex-end;}
+    .tbtn{padding:6px 11px;font-size:12px;gap:5px;}
+    .tbtn svg{width:13px;height:13px;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .slide{transition:opacity .2s;transform:none;}
+    .slide .text>*{transition:none;opacity:1;transform:none;}
+    .slide .visual{opacity:1;}
+    .visual img{transition:none;transform:none;}
+    .stage.bounce{animation:none;}
+    .cover .fade-up{animation:none;opacity:1;transform:none;}
+  }
+
+
+  /* 第四代：性能与主题一致性优化；按钮在浅色/深色模式保持统一强调色。 */
+  /* 第三轮视觉打磨：更清晰的层级、更完整的阅读节奏 */
+  .stage{counter-reset:moment-index;}
+  .moment{counter-increment:moment-index;}
+  .moment .text{position:relative;z-index:1;max-width:42rem;}
+  .moment .eyebrow{padding:7px 11px;border:1px solid color-mix(in srgb, var(--acc,#e07b2a) 24%, transparent);border-radius:999px;background:color-mix(in srgb, var(--acc,#e07b2a) 7%, transparent);letter-spacing:.16em;margin-bottom:2.2vh;}
+  .moment .eyebrow::before{width:1.25em;}
+  .moment .hook{display:flex;align-items:center;gap:10px;font-size:clamp(14px,1.35vw,17px);font-style:normal;font-weight:500;letter-spacing:.04em;margin-bottom:1.1vh;}
+  .moment .hook::before{content:"✳";font-size:13px;opacity:.8;}
+  .moment h1.title{max-width:14ch;margin-bottom:2.1vh;line-height:1.2;text-wrap:balance;}
+  .moment .story{max-width:33em;padding-left:16px;border-left:1px solid color-mix(in srgb, var(--acc,#e07b2a) 48%, transparent);}
+  .moment .why{padding:15px 17px;border:1px solid var(--line);border-left:3px solid var(--acc,#e07b2a);border-radius:0 12px 12px 0;background:color-mix(in srgb, var(--acc,#e07b2a) 4%, var(--bg));gap:12px;}
+  .moment .why .tag{font-size:10px;letter-spacing:.16em;}
+  .moment .deepbtn{margin-top:.25vh;padding:11px 19px;background:#e8842c;border:1px solid #e8842c;color:#1d1a16;box-shadow:0 7px 18px rgba(29,26,22,.12);font-weight:600;}
+  .moment .deepbtn::after{content:"更多";font-size:10px;letter-spacing:.04em;opacity:.7;margin-left:5px;}
+  .moment .deepbtn:hover{background:#f09a48;border-color:#f09a48;color:#1d1a16;transform:translateY(-1px);}
+  .moment .visual{border-radius:22px;box-shadow:0 24px 60px rgba(45,32,18,.16),0 0 0 1px rgba(45,32,18,.06);}
+  .moment .visual::before{content:"";position:absolute;z-index:1;inset:0;background:linear-gradient(135deg,rgba(20,15,8,.04),transparent 45%,rgba(20,15,8,.18));pointer-events:none;}
+  .moment .visual img{filter:saturate(.92) contrast(1.025);}
+  /* 第五轮：让每个故事拥有统一的视觉签名 */
+  .visual-index{position:absolute;z-index:2;left:18px;bottom:18px;display:flex;align-items:baseline;gap:8px;padding:9px 12px;border:1px solid rgba(255,255,255,.32);border-radius:10px;background:rgba(20,16,12,.48);color:#fff;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);text-shadow:0 1px 8px rgba(0,0,0,.2);}
+  .visual-index span{font-size:9px;letter-spacing:.16em;opacity:.8;}
+  .visual-index strong{font-family:var(--serif);font-size:27px;font-weight:800;line-height:1;letter-spacing:-.04em;}
+  .visual-index i{font-size:10px;font-style:normal;opacity:.72;}
+  .moment .text::after{content:"""";display:block;height:0;visibility:hidden;}
+  .moment .why{position:relative;}
+  .moment .why::after{content:"KEY IDEA";position:absolute;right:12px;top:10px;font-size:8px;letter-spacing:.16em;color:var(--acc,#e07b2a);opacity:.6;}
+  .moment .visual::after{box-shadow:inset 0 0 0 1px rgba(255,255,255,.3),inset 0 -60px 80px -48px rgba(20,15,8,.38);}
+  .timeline{margin-top:3vh;max-width:62em;}
+  .tl-row{grid-template-columns:7em 2em minmax(0,1fr);padding:12px 14px;margin:2px -14px;border:1px solid transparent;border-radius:12px;}
+  .tl-row:hover{background:color-mix(in srgb, var(--dot,#e07b2a) 6%, var(--bg));border-color:color-mix(in srgb, var(--dot,#e07b2a) 22%, transparent);}
+  .tl-era{font-size:12px;letter-spacing:.04em;}
+  .tl-dot{width:9px;height:9px;box-shadow:0 0 0 5px color-mix(in srgb, var(--dot,#e07b2a) 12%, transparent);}
+  .tl-t{font-weight:500;line-height:1.55;}
+  .cover .kicker{display:inline-flex;align-items:center;gap:10px;padding:8px 12px;border:1px solid var(--line);border-radius:999px;background:color-mix(in srgb, var(--bg) 70%, transparent);letter-spacing:.2em;}
+  .cover h1{letter-spacing:-.045em;text-wrap:balance;}
+  .cover h1 span{display:inline-block;text-shadow:0 8px 28px rgba(232,132,44,.12);}
+  .cover .sub{max-width:27em;}
+  .cover .cover-meta{letter-spacing:.08em;}
+  .cover .cover-note{display:flex;align-items:center;gap:8px;}
+  .cover .cover-note::before{content:"↳";color:#e07b2a;font-size:15px;}
+  .ov-card{border:1px solid var(--line);border-radius:22px;background:color-mix(in srgb, var(--bg) 96%, white);box-shadow:0 24px 80px rgba(20,15,8,.12);}
+  .ov-card h2{font-size:clamp(25px,3vw,34px);line-height:1.25;letter-spacing:-.02em;}
+  .ov-era{display:inline-flex;padding:6px 10px;border-radius:999px;background:rgba(232,132,44,.1);font-size:11px;letter-spacing:.12em;margin-bottom:26px;}
+  .ov-sec{padding-bottom:18px;border-bottom:1px solid var(--line);}
+  .ov-sec:last-child{border-bottom:0;padding-bottom:0;}
+  .ov-sec h4{display:flex;align-items:center;gap:9px;font-size:11px;letter-spacing:.16em;}
+  .ov-sec h4::before{content:"";display:inline-block;width:16px;height:2px;background:#e8842c;border-radius:2px;}
+  .ov-sec p{font-size:15px;line-height:1.95;letter-spacing:.01em;}
+  .ov-egg{border-radius:0 12px 12px 0;padding:15px 17px;line-height:1.8;}
+  .top-actions .tbtn:focus-visible,.deepbtn:focus-visible,.cover-action:focus-visible{outline:2px solid #e8842c;outline-offset:3px;}
+  html.dark .moment .deepbtn{background:#e8842c;border-color:#e8842c;color:#1d1a16;}
+  html.dark .moment .deepbtn:hover{background:#f09a48;border-color:#f09a48;color:#1d1a16;}
+  html.dark .ov-card{background:#1d1914;box-shadow:0 24px 80px rgba(0,0,0,.3);}
+  html.dark .cover .kicker{background:rgba(255,255,255,.04);}
+  @media(max-width:820px){
+    .moment .eyebrow{margin-bottom:14px;font-size:11px;letter-spacing:.1em;}
+    .moment .hook{margin-bottom:8px;}
+    .moment h1.title{font-size:clamp(29px,8vw,44px);margin-bottom:16px;}
+    .moment .story{padding-left:12px;margin-bottom:18px;}
+    .moment .why{padding:12px 13px;margin-bottom:18px;}
+    .moment .visual{border-radius:16px;width:100%;}
+    .visual-index{left:12px;bottom:12px;padding:7px 9px;gap:6px;}
+    .visual-index strong{font-size:23px;}
+    .visual-index span{font-size:8px;}
+    .moment .visual::after{border-radius:16px;}
+    .moment .visual img{border-radius:16px;}
+    .moment .deepbtn{min-height:42px;}
+    .timeline{margin-top:18px;}
+    .tl-row{grid-template-columns:5.4em 1.4em minmax(0,1fr);padding:11px 8px;margin:2px -8px;}
+    .tl-era{font-size:11px;padding-right:7px;}
+    .tl-t{font-size:13px;}
+    .ov-card{border-radius:17px;}
+  }
+  @media(prefers-reduced-motion:reduce){
+    .moment .deepbtn,.moment .visual img,.tl-row,.cover-action{transition:none;}
+    .moment .deepbtn:hover,.cover-action:hover{transform:none;}
+  }
+
+
+  /* 第四轮修复：标题安全区、时间轴独立滚动、底部进度栏避让 */
+  .slide{overflow-y:auto;overflow-x:hidden;overscroll-behavior-y:contain;scrollbar-width:thin;scrollbar-color:rgba(138,131,120,.35) transparent;}
+  .slide.active{scroll-padding-top:120px;}
+  .moment.slide{justify-content:flex-start;padding-top:clamp(112px,14vh,160px);padding-bottom:clamp(104px,13vh,136px);}
+  .moment .text{min-width:0;}
+  .moment h1.title{overflow-wrap:anywhere;}
+  .toc-slide{justify-content:flex-start;padding-top:clamp(112px,14vh,160px);padding-bottom:calc(120px + env(safe-area-inset-bottom));}
+  .toc-slide>div{width:100%;min-width:0;}
+  .timeline{padding-bottom:24px;}
+  .tl-row{min-width:0;}
+  .tl-t{min-width:0;overflow-wrap:anywhere;}
+  .hud{padding-bottom:calc(12px + env(safe-area-inset-bottom));background:linear-gradient(to top,color-mix(in srgb,var(--bg) 94%,transparent),transparent);}
+  .counter{line-height:1.5;padding-bottom:2px;}
+  @media(max-width:820px){
+    .topbar{padding-top:calc(10px + env(safe-area-inset-top));padding-bottom:10px;align-items:center;}
+    .top-actions{gap:6px;flex-wrap:wrap;justify-content:flex-end;max-width:72%;}
+    .tbtn{font-size:11px;letter-spacing:0;padding:7px 10px;}
+    .moment.slide{padding:calc(104px + env(safe-area-inset-top)) 7vw calc(112px + env(safe-area-inset-bottom));}
+    .toc-slide{padding:calc(104px + env(safe-area-inset-top)) 7vw calc(132px + env(safe-area-inset-bottom));}
+    .timeline{margin-top:18px;padding-bottom:28px;}
+    .tl-row{grid-template-columns:minmax(3.8em,5.4em) 1.4em minmax(0,1fr);}
+    .tl-t{font-size:clamp(12px,3.3vw,14px);line-height:1.5;}
+    .hud{padding:0 5vw calc(8px + env(safe-area-inset-bottom));}
+    .bar{height:2px;}
+    .counter{font-size:11px;margin-top:5px;}
+  }
+  @media(max-width:420px){
+    .topbar{padding-left:12px;padding-right:12px;}
+    .logo{font-size:12px;white-space:nowrap;}
+    .top-actions{max-width:76%;}
+    .tbtn{padding:6px 8px;font-size:10px;}
+    .moment.slide{padding-left:6vw;padding-right:6vw;}
+    .moment h1.title{font-size:clamp(27px,8vw,36px);line-height:1.24;max-width:100%;}
+    .toc-slide{padding-left:5vw;padding-right:5vw;}
+    .tl-row{grid-template-columns:3.6em 1.2em minmax(0,1fr);padding:10px 6px;margin:2px -6px;}
+    .tl-era{font-size:10px;padding-right:4px;}
+  }
+
+
+  /* 第六代迭代：让“更多”回归轻盈的玻璃质感，并移除正文中的史料提示标签 */
+  .moment .deepbtn{
+    background:rgba(255,255,255,.48)!important;
+    border:1px solid rgba(255,255,255,.76)!important;
+    color:var(--ink)!important;
+    box-shadow:0 2px 12px rgba(50,38,24,.055),inset 0 1px 0 rgba(255,255,255,.72)!important;
+    backdrop-filter:blur(12px) saturate(1.25);
+    -webkit-backdrop-filter:blur(12px) saturate(1.25);
+    font-weight:500;
+  }
+  .moment .deepbtn:hover{
+    background:rgba(255,255,255,.72)!important;
+    border-color:rgba(232,132,44,.32)!important;
+    color:var(--ink)!important;
+    box-shadow:0 5px 18px rgba(50,38,24,.09),inset 0 1px 0 rgba(255,255,255,.86)!important;
+    transform:translateY(-1px);
+  }
+  html.dark .moment .deepbtn{
+    background:rgba(255,255,255,.075)!important;
+    border-color:rgba(255,255,255,.16)!important;
+    color:var(--ink)!important;
+    box-shadow:0 2px 12px rgba(0,0,0,.12),inset 0 1px 0 rgba(255,255,255,.06)!important;
+  }
+  html.dark .moment .deepbtn:hover{
+    background:rgba(255,255,255,.12)!important;
+    border-color:rgba(240,173,111,.38)!important;
+    color:var(--ink)!important;
+  }
+  .evidence-tag{display:none!important;}
+
+
+  /* 第七代：优化沉浸式阅读节奏与长标题的稳定性 */
+  .moment .text{min-width:0;}
+  .moment .title{max-width:14ch;text-wrap:balance;}
+  .moment .hook,.moment .story,.moment .why p{overflow-wrap:anywhere;}
+  .moment .story{max-width:38em;}
+  .moment .why{max-width:40em;}
+  .moment .deepbtn{min-height:40px;padding:8px 17px;letter-spacing:.025em;}
+  .moment .deepbtn:focus-visible,.cover-action:focus-visible,.tbtn:focus-visible{outline:2px solid var(--focus-ring);outline-offset:4px;}
+  .moment .visual{isolation:isolate;}
+  .moment .visual img{will-change:auto;}
+  @media(min-width:900px){
+    .moment .title{max-width:12ch;}
+    .moment .story,.moment .why{max-width:34em;}
+  }
+  @media(max-width:600px){
+    .moment .text{padding-top:clamp(12px,3vh,28px);padding-bottom:clamp(18px,4vh,36px);}
+    .moment .title{max-width:100%;text-wrap:pretty;}
+    .moment .story{line-height:1.85;}
+    .moment .deepbtn{margin-top:4px;}
+  }
+  @media(prefers-reduced-motion:reduce){
+    .moment .visual img{transform:none!important;}
+    .moment .text>*{transition:none!important;transform:none!important;}
+  }
+
+/* 第二十二轮：顶部导航通透化；不改动图片资源路径及 assets 结构 */
+.topbar{
+  background:linear-gradient(to bottom, rgba(248,245,239,.78), rgba(248,245,239,.32)) !important;
+  border-bottom:1px solid rgba(120,100,75,.10);
+  box-shadow:0 8px 28px rgba(60,45,25,.035);
+  -webkit-backdrop-filter:blur(18px) saturate(1.35);
+  backdrop-filter:blur(18px) saturate(1.35);
+}
+html.dark .topbar{
+  background:linear-gradient(to bottom, rgba(22,19,15,.76), rgba(22,19,15,.30)) !important;
+  border-bottom-color:rgba(240,235,226,.10);
+}
+.top-actions .tbtn{
+  background:rgba(255,255,255,.32);
+  border-color:rgba(120,100,75,.14);
+  -webkit-backdrop-filter:blur(12px) saturate(1.3);
+  backdrop-filter:blur(12px) saturate(1.3);
+}
+html.dark .top-actions .tbtn{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.14);}
+@media(max-width:820px){
+  .topbar{background:linear-gradient(to bottom,rgba(248,245,239,.82),rgba(248,245,239,.48)) !important;}
+  html.dark .topbar{background:linear-gradient(to bottom,rgba(22,19,15,.82),rgba(22,19,15,.48)) !important;}
+}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  .topbar{background:rgba(248,245,239,.56) !important;border-color:rgba(255,255,255,.58) !important;backdrop-filter:blur(18px) saturate(1.45);-webkit-backdrop-filter:blur(18px) saturate(1.45);box-shadow:0 8px 28px rgba(70,52,30,.045);}
+  html.dark .topbar{background:rgba(22,19,15,.52) !important;border-color:rgba(255,255,255,.10) !important;backdrop-filter:blur(18px) saturate(1.35);-webkit-backdrop-filter:blur(18px) saturate(1.35);box-shadow:0 8px 28px rgba(0,0,0,.12);}
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#stage">跳到主要内容</a>
+<!-- 第二十三轮：发布打包资源扫描保护。请保留这些静态引用与原有 assets 目录结构。 -->
+<div style="display:none" aria-hidden="true">
+  <img src="assets/01-fire.jpg" alt=""><img src="assets/02-tablet.jpg" alt=""><img src="assets/03-bath.jpg" alt="">
+  <img src="assets/04-xray.jpg" alt=""><img src="assets/05-icepop.jpg" alt=""><img src="assets/06-penicillin.jpg" alt="">
+  <img src="assets/07-antimatter.jpg" alt=""><img src="assets/08-microwave.jpg" alt=""><img src="assets/09-beer.jpg" alt="">
+  <img src="assets/10-spring.jpg" alt=""><img src="assets/11-web.jpg" alt="">
+</div>
+<style>
+  .skip-link{position:fixed;left:12px;top:12px;z-index:10000;padding:10px 14px;background:var(--ink);color:var(--bg);border-radius:8px;transform:translateY(-160%);transition:transform .15s ease;text-decoration:none;font-size:14px}
+  .skip-link:focus{transform:translateY(0)}
+
+  /* 第五代迭代：统一按钮、标签、弹窗与目录的视觉语言 */
+  :root{--accent:#e8842c;--accent-hover:#f09a48;--surface:rgba(255,255,255,.58);--surface-border:var(--line);--focus-ring:#b66a2c;}
+  html.dark{--surface:rgba(255,255,255,.055);--surface-border:var(--line);--focus-ring:#f3b16f;}
+  .tbtn,.deepbtn,.cover-action,.ov-close,.chip,.tl-row{ -webkit-tap-highlight-color:transparent; }
+  .tbtn,.deepbtn,.cover-action,.ov-close,.chip{transition:background-color .18s ease,border-color .18s ease,color .18s ease,box-shadow .18s ease,transform .18s ease;}
+  .top-actions .tbtn{border-color:var(--surface-border);}
+  .top-actions .tbtn:hover{border-color:color-mix(in srgb,var(--accent) 42%,var(--line));}
+  .moment .deepbtn{background:var(--accent);border-color:var(--accent);color:#21170f;box-shadow:0 5px 16px rgba(145,77,24,.18);}
+  .moment .deepbtn::after{content:none;}
+  .moment .deepbtn:hover{background:var(--accent-hover);border-color:var(--accent-hover);color:#21170f;box-shadow:0 8px 20px rgba(145,77,24,.23);}
+  .moment .deepbtn:active,.cover-action:active,.tbtn:active{transform:translateY(1px);}
+  .cover-action{box-shadow:0 5px 18px rgba(145,77,24,.16);}
+  .cover-action.secondary{background:var(--surface);backdrop-filter:blur(8px);}
+  .cover-action.secondary:hover{background:color-mix(in srgb,var(--accent) 9%,var(--bg));}
+  .ov-close{border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);}
+  .ov-close:hover{background:color-mix(in srgb,var(--accent) 12%,var(--bg));border-color:color-mix(in srgb,var(--accent) 45%,var(--line));}
+  .chip{border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);}
+  .chip:hover{border-color:color-mix(in srgb,var(--accent) 48%,var(--line));background:color-mix(in srgb,var(--accent) 9%,var(--bg));}
+  .tl-row{transition:background-color .18s ease,border-color .18s ease;}
+  .tl-row:focus-visible,.chip:focus-visible,.ov-close:focus-visible{outline:2px solid var(--focus-ring);outline-offset:3px;}
+  html.dark .top-actions .tbtn:hover{background:rgba(255,255,255,.12);color:var(--ink);}
+  html.dark .moment .deepbtn,html.dark .moment .deepbtn:hover{color:#21170f;}
+  @media(prefers-reduced-motion:reduce){.tbtn,.deepbtn,.cover-action,.ov-close,.chip,.tl-row{transition:none!important;}}
+
+  /* 第二十三轮：覆盖不支持 backdrop-filter 时过于厚重的纯色回退，保持菜单轻透。 */
+  .topbar{
+    background:linear-gradient(to bottom,rgba(248,245,239,.70),rgba(248,245,239,.24)) !important;
+    border-bottom:1px solid rgba(120,100,75,.10);
+    box-shadow:0 8px 26px rgba(60,45,25,.025);
+    -webkit-backdrop-filter:blur(18px) saturate(1.3);
+    backdrop-filter:blur(18px) saturate(1.3);
+  }
+  html.dark .topbar{background:linear-gradient(to bottom,rgba(22,19,15,.72),rgba(22,19,15,.24)) !important;border-bottom-color:rgba(240,235,226,.10);}
+  .top-actions .tbtn{background:rgba(255,255,255,.26);border-color:rgba(120,100,75,.13);}
+  html.dark .top-actions .tbtn{background:rgba(255,255,255,.065);border-color:rgba(255,255,255,.13);}
+  @media(max-width:820px){
+    .topbar{background:linear-gradient(to bottom,rgba(248,245,239,.72),rgba(248,245,239,.30)) !important;}
+    html.dark .topbar{background:linear-gradient(to bottom,rgba(22,19,15,.74),rgba(22,19,15,.28)) !important;}
+  }
+
+  /* 第二十五轮：首屏构图与图片容器稳定性，不改动图片资源路径或交互逻辑 */
+  .moment .visual{background:linear-gradient(135deg,color-mix(in srgb,var(--acc,#e07b2a) 10%,var(--bg)),color-mix(in srgb,var(--bg) 92%,#9a8872));isolation:isolate;}
+  .moment .visual img{position:relative;z-index:0;width:100%;height:56vh;min-height:300px;max-height:720px;object-fit:cover;object-position:center;}
+  .moment .visual-index{pointer-events:none;}
+  .cover{min-width:0;}
+  .cover h1{max-width:10ch;line-height:1.04;text-wrap:balance;}
+  .cover .sub{max-width:30em;line-height:1.75;text-wrap:pretty;}
+  @media(max-width:820px){
+    .moment .visual img{height:clamp(220px,58vw,420px);min-height:220px;max-height:none;}
+    .cover h1{max-width:9ch;line-height:1.06;}
+    .topbar{gap:10px;}
+    .top-actions{min-width:0;}
+  }
+  @media(max-width:360px){
+    .logo{max-width:110px;overflow:hidden;text-overflow:ellipsis;}
+    .top-actions{max-width:74%;gap:4px;}
+    .tbtn{padding:6px 7px;font-size:10px;}
+    .cover h1{font-size:clamp(43px,13.5vw,54px);}
+  }
+  @media(prefers-reduced-motion:reduce){.moment .visual img{transform:none!important;}}
+
+
+  /* 第二十六轮：故事页节奏与版面稳定性，不触碰分享功能或图片路径 */
+  .moment .visual{background:linear-gradient(135deg,rgba(232,132,44,.10),rgba(120,100,75,.06));}
+  .moment .visual img{width:100%;height:clamp(300px,56vh,660px);object-fit:cover;object-position:center;}
+  .moment .text{min-width:0;}
+  .moment .title{overflow-wrap:anywhere;}
+  .moment .story,.moment .why{overflow-wrap:break-word;}
+  .moment .why{line-height:1.7;}
+  @media (min-width:821px){
+    .moment{column-gap:clamp(36px,5vw,88px);}
+    .moment .visual{max-height: min(66vh,720px);}
+    .moment .text{max-height:82vh;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:rgba(138,131,120,.35) transparent;padding:8px 5px 8px 0;}
+  }
+  @media (max-width:820px){
+    .moment .visual{width:100%;border-radius:18px;}
+    .moment .visual img{height:clamp(190px,31vh,300px);object-position:center 32%;}
+    .moment .text{width:100%;}
+    .moment h1.title{font-size:clamp(30px,7vw,44px);line-height:1.22;margin-bottom:16px;}
+    .moment .story{font-size:clamp(15px,3.8vw,17px);line-height:1.82;margin-bottom:18px;}
+    .moment .why{padding:13px 14px;margin-bottom:18px;}
+  }
+  @media (max-width:420px){
+    .moment .visual img{height:clamp(175px,27vh,230px);}
+    .moment h1.title{font-size:clamp(29px,7.4vw,36px);}
+    .moment .eyebrow{font-size:10px;letter-spacing:.12em;}
+  }
+  @media(prefers-reduced-motion:reduce){.moment .visual img{transition:none!important;}}
+</style>
+<nav class="topbar" aria-label="主导航">
+  <div class="logo" id="logo">人类<span>高光瞬间</span></div>
+  <div class="top-actions">
+    <button class="tbtn" id="randBtn"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="8.5" r="1.2" fill="currentColor"/><circle cx="15.5" cy="15.5" r="1.2" fill="currentColor"/><circle cx="15.5" cy="8.5" r="1.2" fill="currentColor"/><circle cx="8.5" cy="15.5" r="1.2" fill="currentColor"/></svg>随机一个</button>
+    <button class="tbtn" id="tocBtn"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><circle cx="4" cy="6" r="1" fill="currentColor"/><circle cx="4" cy="12" r="1" fill="currentColor"/><circle cx="4" cy="18" r="1" fill="currentColor"/></svg>目录</button>
+    <button class="tbtn" id="shareBtn"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.6" x2="15.4" y2="6.4"/><line x1="8.6" y1="13.4" x2="15.4" y2="17.6"/></svg>分享</button>
+    <button class="tbtn" id="darkBtn" aria-label="切换深色模式"><svg class="i-moon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></svg><svg class="i-sun" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><span id="darkLabel">浅色</span></button>
+  </div>
+</nav>
+
+<div class="hint-toast" id="hintToast"></div>
+
+<div class="nav-arrow prev" id="navPrev" aria-label="上一页">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</div>
+<div class="nav-arrow next" id="navNext" aria-label="下一页">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</div>
+
+<main class="stage" id="stage" tabindex="-1" role="main" aria-label="历史故事内容"></main>
+
+<div class="hud">
+  <div class="bar"><i id="barFill"></i></div>
+  <div class="counter"><b id="curNum">01</b> / <span id="totNum"></span></div>
+</div>
+<div class="dots" id="dots"></div>
+
+<div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-labelledby="ovTitle" aria-hidden="true">
+  <button class="ov-close" id="ovClose" aria-label="关闭深度解读">✕</button>
+  <div class="ov-card" id="ovCard"></div>
+</div>
+
+
+<script>
+/* 第九轮史料核验：将若干来源链接收窄至具体机构条目，并校准 PCR 时间线。其余来源仍需逐项人工复核，证据标签表示当前叙述的支持类型，不等于完整学术审定。 */
+var MOMENTS = [
+ {id:'fire', evidence:'考古证据支持', era:'至少约 79 万年前', short:'约79万年前',
+  title:'人类学会控制火，<em>生活从此不同</em>', hook:'火，如何改变了人类的生活？',
+  story:'想象一下：远古人类在自然火灾后，可能观察到烧过的植物或动物发生了变化。我们不知道谁最先利用火、何时开始烹饪；这只是帮助理解的想象，不是有记录的真实故事。考古学能提供的是火使用留下的痕迹，而不是某个「第一人」的姓名。',
+  why:'控制火与烹饪可能深刻影响了人类的饮食、社会生活和技术发展。但火的控制时间、烹饪的起源，以及它们对大脑演化的具体作用，仍在研究中。',
+  img:'assets/01-fire.jpg', acc:'#e07b2a', glow:'rgba(242,163,92,.14)',
+  ctx:'远古人类在非洲及其他地区经历了漫长的演化过程。直立行走比已知的用火证据早得多；以色列 Gesher Benot Ya’aqov 遗址约 79 万年前的烧灼木材与工具，是较早的控制火证据之一。更早的用火与烹饪仍在研究中。',
+  egg:'用火不是单一发明时刻：利用自然火、维持火种和主动生火，是不同的能力，也可能在不同时间出现。',
+  deep:['火的意义不只是把食物烤熟。它让人类在寒冷环境中取暖、在夜间延长活动时间，也让群体能围绕火源共享食物与经验。火因此既是一项技术，也可能改变了人类的社会生活。', '不过，考古学很难指出「人类第一次用火」发生在哪一天。自然火灾留下的痕迹、偶尔利用火焰，以及能够持续生火和控制火，是不同层次的能力。它们出现的时间并不一定相同。', '烹饪是否直接推动大脑变大，也不能简单画成一条直线。熟食会改变食物的质地与消化方式，但人类演化还受到生态、合作、饮食结构等多种因素影响。真正重要的不是某个传奇人物尝了一口肉，而是人类逐步学会把自然能量变成日常生活的一部分。'],
+  sources:[['史密森学会：约 79 万年前的炉址与用火证据','https://humanorigins.si.edu/evidence/behavior/hearths-shelters'],['史密森学会：Gesher Benot-Ya’aqov 烧灼石器','https://humanorigins.si.edu/evidence/behavior/hearths-shelters/fire-altered-stone-tools']],
+  rel:['tablet','archimedes']},
+
+ {id:'tablet', evidence:'考古材料支持', era:'约公元前 3300 年起', short:'前3300',
+  title:'泥板上的记号，<em>逐渐成为文字</em>', hook:'人类为什么开始把信息写下来？',
+  story:'在美索不达米亚南部，早期书写系统与行政、物资管理等需求密切相关。人们把记号刻在泥板上，符号逐渐发展成能够记录语言的楔形文字；这不是某一个会计独自发明的。',
+  why:'文字让行政记录、契约、文学和知识能够跨越时间保存与传播，是人类社会的重要转折之一。不同地区的书写系统有各自的起源史。',
+  img:'assets/02-tablet.jpg', acc:'#a8763e', glow:'rgba(208,160,106,.12)',
+  ctx:'两河流域的苏美尔城邦。农业社会早已形成，城市、贸易与行政管理让记录物资和交易的需求变得更加复杂。',
+  egg:'《吉尔伽美什史诗》的部分文本后来被写在楔形文字泥板上；但早期泥板中很大一部分记录的是物资、交易和行政事务。',
+  deep:['早期文字并不是一开始就用来写史诗或表达个人心情。两河流域的城市需要记录谷物、牲畜、劳役和交易，简单的记号逐渐变得复杂，最终发展成能够记录语言的书写系统。文字的诞生，与城市、分工和行政管理密切相关。', '书写改变了记忆的边界。口述知识依赖讲述者和听众，而文字能在原作者离开后继续存在，也能被复制、比较和重新解释。法律、账目、文学和历史因此有机会跨越个人生命与地域。', '但文字并不是人类文明的唯一记忆方式。口述传统、仪式、图像和实践知识也长期保存着经验；而且世界不同地区的书写系统有各自的发展路径。文字的重要性，在于它为知识保存和组织增加了一种强大的工具。'],
+  sources:[['大英博物馆：美索不达米亚与早期书写背景','https://www.britishmuseum.org/learn/schools/ages-7-11/middle-east-and-asia/visit-resource-mesopotamia'],['大英百科全书：楔形文字','https://www.britannica.com/topic/cuneiform']],
+  rel:['fire','web']},
+
+ {id:'archimedes', evidence:'原理可靠；轶事存疑', era:'约公元前 250 年', short:'前250',
+  title:'阿基米德与<em>浮力原理</em>', hook:'物体为什么能浮在水面上？',
+  story:'流传最广的故事说，阿基米德在洗澡时想到如何比较王冠与纯金的体积，并高喊「Eureka！」。这一情节来自后世记载，不能当作同时代实验记录；浮力原理本身则可用流体静力学解释。',
+  why:'阿基米德原理描述物体在流体中受到的浮力，大小等于物体所排开流体的重量。王冠故事常用来讲解密度与浮力，但不能据此断言他就是在浴缸里完成了这项发现。',
+  img:'assets/03-bath.jpg', acc:'#2a9d8f', glow:'rgba(94,196,182,.12)',
+  ctx:'古希腊化时代的叙拉古（今意大利西西里岛）。阿基米德在数学、机械学与流体研究上留下了重要成果。',
+  egg:'「阿基米德用镜子聚光烧毁罗马舰队」是著名传说，但缺乏足够可靠的同时代证据。古代文献提及相关防御故事的时间与细节不一，不宜把它写成已证实的工程记录。',
+  deep:['浮力可以这样理解：把物体放进水里，它会把一部分水挤开；被挤开的水有重量，水对物体的向上作用力与这部分流体的重量有关。这个原理能帮助解释为什么有些很重的船仍然可以浮在水面上。', '王冠故事常被讲成阿基米德洗澡时突然顿悟的瞬间，但我们无法确认流传版本里的每个细节。历史上的科学发现往往比传说更慢：提出问题、设计测量方法、计算和验证，通常缺一不可。', '阿基米德的贡献也不止一个浮力故事。他研究几何、杠杆和流体问题，展示了数学推理如何帮助人们理解现实世界。与其把科学说成灵光一闪，不如看到好奇心、严密推理和反复验证如何共同工作。'],
+  sources:[['大英百科全书：阿基米德生平与科学贡献','https://www.britannica.com/biography/Archimedes'],['MacTutor：阿基米德传记与史料','https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/'],['史密森学会：聚光镜相关科学仪器与历史记录（用于对照镜子传说的证据背景）','https://americanhistory.si.edu/collections/object/nmah_1770']],
+  rel:['tablet','xray']},
+
+ {id:'xray', evidence:'实验史料支持', era:'1895 年', short:'1895',
+  title:'伦琴发现 X 射线，<em>屏幕却亮了</em>', hook:'一种看不见的射线，如何让骨骼显影？',
+  story:'伦琴研究阴极射线管时，注意到附近被遮挡的荧光屏仍会发光，由此追查出一种此前未知的射线。他后来拍摄了妻子手部的 X 射线影像，骨骼与戒指清晰可见。这是著名的早期影像，但发现过程并非只靠一张照片。',
+  why:'X 射线让医生能够在不切开身体的情况下观察部分内部结构，改变了骨折诊断等医学检查。它也被用于工业检测和安检，但电离辐射需要按实际需要合理控制。',
+  img:'assets/04-xray.jpg', acc:'#2a8ab5', glow:'rgba(91,184,212,.13)',
+  ctx:'19 世纪末，阴极射线实验推动了对电磁现象的研究。伦琴在德国维尔茨堡进行相关实验时，注意到附近荧光屏出现异常发光。',
+  egg:'后来曾出现过用于鞋店的 X 射线透视装置，但它们涉及不必要的辐射暴露，也提醒人们新技术需要安全规范。',
+  deep:['伦琴发现的 X 射线能够穿透部分材料，不同组织对它的吸收程度不同，因此可以在探测器上形成影像。骨骼通常比周围软组织吸收更多 X 射线，所以早期影像里骨头格外清楚。', '这项发现迅速改变了医学检查：医生第一次可以在不切开身体的情况下观察骨折等内部情况。但 X 射线并非没有风险，电离辐射需要合理控制剂量，并根据检查的实际需要使用。', '伦琴把这种未知射线称为「X 射线」，其中 X 表示未知。它也说明基础实验可能带来意想不到的用途：研究者最初并不是为了发明现代医学影像，而是在认真追问实验中出现的异常现象。'],
+  sources:[['诺贝尔奖：伦琴发现 X 射线的实验史','https://www.nobelprize.org/prizes/physics/1901/rontgen/facts/'],['德国伦琴博物馆：伦琴研究与历史资料','https://www.roentgenmuseum.de/']],
+  rel:['penicillin','antimatter']},
+
+ {id:'icepop', evidence:'个人回忆；起源不确定', era:'约 1905 年', short:'约1905',
+  title:'一根冰棍如何成为商品，<em>从回忆到专利</em>', hook:'一杯冻住的甜饮，如何变成大众商品？',
+  story:'弗兰克·艾珀森后来回忆，自己年少时曾把插着搅拌棒的甜饮留在寒冷户外，饮料冻结后给了他灵感。他在 1920 年代将这类产品商业化，并于 1923 年申请相关专利。童年情节来自多年后的回忆，不能据此认定他发明了历史上第一种冰冻甜品。',
+  why:'艾珀森后来把冰冻甜饮做成商品，并以 Epsicle 等名称进行推广；相关专利在 1923 年申请。这个案例更适合说明产品如何从个人点子走向商业化，而不是把冰棍的全部历史归功于单一发明者。',
+  img:'assets/05-icepop.jpg', acc:'#4a90c8', glow:'rgba(142,194,238,.12)',
+  ctx:'20 世纪初的美国，冰淇淋及其他冷冻甜品早已存在。艾珀森的童年故事主要来自他后来的回忆；现有材料更能说明其产品商业化，而不能证明他是第一位制作冰冻甜品的人。',
+  egg:'艾珀森在 1923 年申请相关专利时使用过「Epsicle」名称。专利记录能确认他的商业化进程，却不能证明此前没有类似的冰冻甜品。',
+  deep:['冰棍的故事之所以迷人，是因为它把发明描绘成一次日常意外。弗兰克·艾珀森后来确实以冰冻甜饮相关产品获得商业成功，但「某一晚就发明了世界上第一根冰棍」这种说法，容易把复杂的产品发展压缩成单一瞬间。', '从一个点子到一种商品，中间还隔着配方、生产、保存、销售和消费者习惯。冷藏技术与工业生产的发展，让这种便宜、方便、适合批量制造的冷冻甜品更容易进入日常生活。', '这个故事真正值得记住的，不只是偶然，而是人如何注意到一个小现象，并继续尝试把它变成可重复的产品。灵感能打开门，持续改进才让发明走进千家万户。'],
+  sources:[['美国国家发明家名人堂：弗兰克·艾珀森及其商业化经历','https://www.invent.org/inductees/frank-epperson']],
+  rel:['microwave','penicillin']},
+
+ {id:'penicillin', evidence:'实验记录与后续研究支持', era:'1928 年', short:'1928',
+  title:'弗莱明发现青霉素线索，<em>改变了医学</em>', hook:'一圈细菌没有生长，为什么引起了注意？',
+  story:'1928 年，亚历山大·弗莱明注意到一个被青霉菌污染的培养皿里，霉菌周围的葡萄球菌生长受到抑制。他由此研究这种现象，并在 1929 年发表相关结果。后来让青霉素成为可广泛使用药物，还依赖其他研究者对提纯、临床应用和规模化生产的推进。',
+  why:'青霉素开启了抗生素史上的重要篇章，显著改善了许多细菌感染的治疗。但人类寿命增长是卫生、营养、疫苗、医疗和生活条件等多种因素共同作用的结果。',
+  img:'assets/06-penicillin.jpg', acc:'#4a9e4a', glow:'rgba(134,201,127,.12)',
+  ctx:'1920 年代末的伦敦。抗生素尚未进入广泛临床应用，许多细菌感染比今天更难治疗，但具体预后取决于病原体、病情与医疗条件。',
+  egg:'培养皿为何被青霉菌污染，常被讲成一个关于「偶然发现」的故事；具体的实验室情境不宜被简化成「因为邋遢所以发明药物」。',
+  deep:['1928 年，弗莱明注意到青霉菌周围的细菌受到抑制。这个观察很重要，但发现一种有抗菌作用的物质，并不等于立刻拥有一种安全、稳定、可大量使用的药物。接下来还需要分离有效成分、研究剂量与毒性，并验证它能否用于病人。', '在之后的研究中，霍华德·弗洛里、恩斯特·钱恩及许多研究人员推动了青霉素的提纯和临床应用；工业团队又解决了大规模生产的问题。今天熟悉的抗生素，并不是一个人单独完成的发明，而是一连串研究与协作的结果。', '青霉素改变了许多细菌感染的治疗方式，也让外科手术和战伤治疗拥有了新的保障。但抗生素对病毒无效，使用不当还会推动耐药性。它是现代医学的关键进步之一，却不能单独解释人类寿命增长的全部原因。'],
+  sources:[['诺贝尔奖：弗莱明、弗洛里与钱恩的共同贡献','https://www.nobelprize.org/prizes/medicine/1945/summary/'],['英国国家档案馆：青霉素历史资料','https://www.nationalarchives.gov.uk/education/resources/penicillin/']],
+  rel:['spring','xray']},
+
+ {id:'antimatter', evidence:'实验观测支持', era:'1932 年', short:'1932',
+  title:'安德森拍下正电子，<em>反粒子现身</em>', hook:'宇宙里，藏着一个「反着来」的世界？',
+  story:'1932 年，卡尔·安德森研究宇宙射线留下的云室轨迹时，发现一个粒子的质量与电子相近，但在磁场中的偏转显示它带正电。他进一步分析后将其识别为正电子，也就是电子的反粒子。这个发现并不是一张照片就能独立证明，而是依靠轨迹证据和后续分析。',
+  why:'安德森在 1932 年发表了正电子的实验发现，为反物质研究提供了关键证据。反物质并不简单等于一个与我们相反的「镜像世界」，它指的是具有相应反粒子的物质。',
+  img:'assets/07-antimatter.jpg', acc:'#8b5cc8', glow:'rgba(176,127,232,.14)',
+  ctx:'20 世纪 30 年代初的加州理工。粒子加速器尚未达到后来能量规模，宇宙射线与云室为研究高能粒子提供了重要窗口。',
+  egg:'狄拉克的理论为正电子提供了重要预言；安德森的云室照片记录了符合正电子特征的轨迹。照片需要结合磁场方向、粒子能量损失等证据解释，并非脱离分析就能独立证明。',
+  deep:['正电子可以理解为电子的反粒子：它与电子质量相同，但电荷相反。它不是科幻作品里一个完整的「反世界」，而是粒子物理中有明确性质、可以被实验研究的一种粒子。', '保罗·狄拉克的理论为正电子的存在提供了重要预言；卡尔·安德森在宇宙射线实验中观察到符合正电子特征的轨迹，并于 1932 年公布发现。理论推导与实验观测互相支撑，是现代科学的重要工作方式。', '正电子与电子相遇时可以发生湮灭，并转化为其他粒子，例如光子。医学中的 PET 成像利用正电子发射示踪剂产生的信号重建体内图像。这说明基础粒子研究虽然看似遥远，也可能在多年后进入实际应用。'],
+  sources:[['诺贝尔奖：卡尔·安德森','https://www.nobelprize.org/prizes/physics/1936/anderson/facts/'],['美国物理学会：1932 年正电子发现史','https://www.aps.org/apsnews/2004/08/discovery-positron-1932'],['《Physical Review》：安德森 1933 年原始论文《The Positive Electron》','https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491']],
+  rel:['beer','xray']},
+
+ {id:'microwave', evidence:'技术史支持；巧克力细节存疑', era:'1945 年', short:'1945',
+  title:'雷达技术走进厨房，<em>微波炉诞生</em>', hook:'雷达技术，如何走进厨房？',
+  story:'工程师珀西·斯宾塞在研究雷达设备时，注意到附近的食物出现加热现象。后来流传最广的版本是他口袋里的巧克力融化了；这个细节通常作为发明故事讲述，但不应把它当作微波炉诞生的全部过程。',
+  why:'斯宾塞及雷神公司的团队随后探索了微波加热的应用，并推动微波炉发展。早期设备体积庞大、价格昂贵，家用微波炉是之后逐渐发展起来的。',
+  img:'assets/08-microwave.jpg', acc:'#d8822a', glow:'rgba(232,160,76,.13)',
+  ctx:'二战刚结束，雷达技术从军用转民用，美国雷声公司。',
+  egg:'早期商用微波炉体积庞大、价格高，远非今天的台面小家电。后来设备缩小、成本下降，并经过安全与工程改进，才逐渐进入家庭。',
+  deep:['微波炉不是单纯把食物放进一束「热光」里。微波电磁场会与食物中的某些分子和离子相互作用，使能量转化为热；实际加热效果会受到食物成分、形状、含水量和设备结构影响。', '珀西·斯宾塞与雷神公司的工作把雷达相关技术引向了加热应用。口袋里的巧克力融化是广为流传的故事版本，但微波炉成为产品，还经历了设备设计、功率控制、成本下降和家用安全等一系列工程改进。', '早期微波炉庞大而昂贵，后来随着技术成熟才逐渐进入家庭。这个案例提醒我们：发明史不只是某人发现一个现象，更包括把原理变成稳定、可靠、普通人负担得起的工具。'],
+  sources:[['美国国家发明家名人堂：珀西·L·斯宾塞与磁控管','https://www.invent.org/inductees/percy-l-spencer'],['美国国家发明家名人堂：微波炉的发明史','https://www.invent.org/blog/inventors/microwave']],
+  rel:['icepop','beer']},
+
+ {id:'beer', evidence:'仪器与诺奖记录支持；灵感轶事存疑', era:'1952 年', short:'1952',
+  title:'气泡轨迹，<em>打开了粒子世界</em>', hook:'液体里的气泡，怎么记录粒子的踪迹？',
+  story:'唐纳德·格拉塞在 1950 年代初发展出气泡室。流行故事常说灵感来自啤酒泡沫，但格拉塞本人明确否认这种说法；他确实做过饮料起泡的实验，不过那是检验想法的一部分，不等于灵感来自酒吧。更可靠的重点是他通过实验找到让带电粒子轨迹显现的方法。',
+  why:'气泡室让研究者能够观察带电粒子在过热液体中留下的轨迹。格拉塞因气泡室的发明获得 1960 年诺贝尔物理学奖。它不是高速摄像机，而是一种粒子探测器。',
+  img:'assets/09-beer.jpg', acc:'#c99a20', glow:'rgba(230,184,76,.12)',
+  ctx:'战后粒子物理快速发展。研究者需要更有效的方法，记录并分析高能粒子与物质相互作用留下的轨迹。',
+  egg:'「格拉塞看着酒吧里的啤酒泡沫，突然想到气泡室」是常见传说，但史密森学会的馆藏说明指出，格拉塞本人明确否认这种灵感来源。他曾在实验室测试啤酒、姜汁汽水和苏打水的起泡现象，实验验证与发明灵感不是一回事。',
+  deep:['气泡室的原理是让带电粒子穿过一种过热液体时留下可见的气泡轨迹。研究人员可以拍下这些轨迹，再根据弯曲方向、曲率等信息推断粒子的电荷、动量等性质。它把肉眼看不见的粒子运动转化成可分析的证据。', '格拉塞因气泡室的发明获得 1960 年诺贝尔物理学奖。酒吧里的气泡常被说成他的灵感来源，但故事版本并不完全一致；真正使这项工作成为科学突破的，是把观察转化为可重复、可测量的探测方法。', '科学仪器会改变科学家能够提出什么问题。更好的探测器能让原本难以观察的现象留下记录，也能让不同团队比较证据。气泡室后来被其他粒子探测技术逐步补充和取代，但它在粒子物理发展中留下了重要位置。'],
+  sources:[['诺贝尔奖：唐纳德·格拉塞与气泡室','https://www.nobelprize.org/prizes/physics/1960/glaser/facts/'],['史密森学会美国国家历史博物馆：格拉塞早期玻璃气泡室及啤酒灵感传说的说明','https://americanhistory.si.edu/collections/object/nmah_1020112'],['格拉塞诺贝尔演讲：气泡室的实验发展','https://www.nobelprize.org/uploads/2017/05/glaser-lecture.pdf']],
+  rel:['antimatter','microwave']},
+
+ {id:'spring', evidence:'技术史支持', era:'1983 年构想；1985 年发表', short:'1983/85',
+  title:'温泉微生物，<em>让 PCR 更实用</em>', hook:'一种耐热酶，如何改进了 PCR？',
+  story:'卡里·穆利斯在 1983 年构想 PCR，相关方法于 1985 年发表。后来，研究者从嗜热菌 Thermus aquaticus 中获得耐热 DNA 聚合酶（Taq），使 PCR 的高温循环更容易自动化。它们是相互关联、但不同阶段的突破。',
+  why:'耐热 DNA 聚合酶大幅改进了 PCR 的操作流程。PCR 已广泛用于分子生物学、医学检测、法医学和研究，但这些应用并不都「全靠」单一温泉样本。',
+  img:'assets/10-spring.jpg', acc:'#2a9d7e', glow:'rgba(79,196,160,.13)',
+  ctx:'基因工程兴起。嗜热微生物的研究，为耐热 DNA 聚合酶的应用提供了关键材料；PCR 的构想、方法发表与耐热酶的应用属于不同阶段。',
+  egg:'Taq 聚合酶来自嗜热菌 Thermus aquaticus。它能耐受 PCR 的高温循环，让扩增流程更容易自动化。',
+  deep:['PCR 的核心想法，是利用温度循环让 DNA 片段反复复制。每轮循环包括让双链分开、引物结合，以及 DNA 聚合酶延伸等步骤；在合适条件下，目标片段的数量可以快速增加。', '卡里·穆利斯在 1983 年构想 PCR，相关方法于 1985 年发表。早期流程的一个难点是高温步骤会影响普通 DNA 聚合酶，因此研究者后来利用耐热微生物来源的 Taq 聚合酶，使反复加热的流程更容易自动化。PCR 的发明与耐热酶的应用，是相连但不同的技术进展。', '如今 PCR 被用于研究、临床检测和法医学等领域，但它不是所有检测的通用答案。不同应用需要不同的样本处理、引物设计和质量控制。这个故事体现的是基础研究、技术工程与实际需求如何结合，而不是一锅温泉水独自创造了现代检测。'],
+  sources:[['诺贝尔奖：穆利斯与 PCR 方法','https://www.nobelprize.org/prizes/chemistry/1993/mullis/facts/'],['美国国家公园管理局：黄石微生物研究','https://www.nps.gov/yell/learn/nature/historyscience.htm']],
+  rel:['penicillin','web']},
+
+ {id:'web', evidence:'CERN 史料支持', era:'1989 年', short:'1989',
+  title:'伯纳斯-李提出<em>万维网构想</em>', hook:'万维网如何改变信息的连接方式？',
+  story:'1989 年，蒂姆·伯纳斯-李在欧洲核子研究中心提出万维网的构想，希望研究人员能更方便地共享和链接信息。之后他实现了早期网页服务器、浏览器和网站。万维网建立在更早已存在的互联网基础设施之上。',
+  why:'万维网让通过链接访问和发布文档变得更容易，是互联网普及的重要推动因素之一，但互联网并非由万维网单独创造，也不是在 1989 年立刻向所有人开放。',
+  img:'assets/11-web.jpg', acc:'#2a86c8', glow:'rgba(88,182,232,.13)',
+  ctx:'1989 年的欧洲核子研究中心（CERN）。研究人员使用不同系统整理信息，跨团队查找和关联文档并不方便。',
+  egg:'万维网后来得以广泛使用，与 CERN 在 1993 年将相关软件置于免版税的公共使用条件密切相关。把这件事简单说成「某个人放弃专利」会漏掉机构决策和开放标准的作用。',
+  deep:['万维网把文档、链接和网络连接组合成一种容易使用的信息系统。URL 标识资源，HTTP 负责传输，HTML 描述网页结构；用户可以通过链接从一个页面跳到另一个页面，而不必知道文件具体存放在哪台机器上。', '1989 年，蒂姆·伯纳斯-李在欧洲核子研究中心提出万维网构想。互联网的网络基础设施此前已经存在，因此万维网不是互联网本身，而是建立在互联网之上的信息服务。早期浏览器、服务器和网站随后逐步形成了可运行的系统。', '万维网的影响来自开放标准、易于链接和不断扩展的生态，而不是某一天突然让所有人都上网。浏览器、通信网络、设备普及、商业模式和公共政策等因素共同推动了它走进日常生活。今天的网站延续了这个基本思想，也建立在许多后续技术之上。'],
+  sources:[['CERN：万维网的诞生与 1993 年开放软件','https://home.cern/science/computing/the-birth-of-the-web'],['万维网基金会：万维网历史','https://webfoundation.org/about/vision/history-of-the-web/']],
+  rel:['tablet','spring']}
+];
+
+var stage = document.getElementById('stage');
+var overlay = document.getElementById('overlay');
+var ovCard = document.getElementById('ovCard');
+
+var coverHTML = `
+  <section class="slide cover">
+    <div>
+      <div class="kicker fade-up d1">一份可以「翻页」的人类简史</div>
+      <h1 class="fade-up d2">人类<br>高光<span>瞬间</span></h1>
+      <p class="sub fade-up d3">从人类开始控制火，到有人发现反物质——11 个改变我们理解世界的瞬间。</p>
+      <div class="cover-meta fade-up d3">11 个历史节点 · 传说会标明，证据会说清</div>
+      <div class="cover-actions fade-up d4">
+        <button class="cover-action" id="startExplore">开始探索 <span aria-hidden="true">↗</span></button>
+        <button class="cover-action secondary" id="coverToc">浏览时间轴</button>
+      </div>
+      <p class="cover-note fade-up d4">约 5 分钟阅读 · 可随时打开「深度解读」了解背景</p>
+    </div>
+  </section>`;
+
+var prefaceHTML = `
+  <section class="slide">
+    <div>
+      <div class="eyebrow" style="--acc:#e07b2a;">前言</div>
+      <h1 class="title">历史不是被计划出来的</h1>
+      <p style="max-width:32em;font-size:clamp(16px,1.7vw,21px);line-height:2;color:var(--ink);font-weight:300;margin-bottom:2vh;">它是被一个个<b style="color:#e07b2a;font-weight:500;">「咦？这挺有意思」</b>的瞬间，一脚一脚踹出来的。</p>
+      <p style="max-width:32em;font-size:clamp(16px,1.7vw,21px);line-height:2;color:var(--ink);font-weight:300;margin-bottom:2vh;">有些故事来自实验记录，有些来自多年后的回忆，还有些被流传过程越讲越戏剧化。真正改变世界的，往往不只是某个瞬间，还有随后漫长的验证、协作与改进。</p>
+      <p style="max-width:32em;font-size:clamp(16px,1.7vw,21px);line-height:2;color:var(--muted);font-weight:300;">接下来这 11 页，每页一个瞬间。故事里有发现、有争议，也有后来被反复讲述的细节。打开「更多」，看看这个瞬间为什么重要，以及故事背后真正发生了什么。</p>
+    </div>
+  </section>`;
+
+var finaleHTML = `
+  <section class="slide" style="--acc:#e07b2a;">
+    <div>
+      <div class="eyebrow">尾声</div>
+      <h1 class="title">下一个瞬间，<em>已经在路上</em></h1>
+      <p class="big">这些「就那一下」，开头看起来都像个意外、一个麻烦、一次摸鱼。</p>
+      <p class="story">历史不是被计划出来的，是被一群看见「咦？这挺有意思」的人，一脚一脚踹下去的。</p>
+      <div class="why"><div><div class="tag">彩蛋</div><p>保持好奇。也许你的下一个「咦」，就是下一个被写进历史的高光瞬间。</p></div></div>
+    </div>
+  </section>`;
+
+var momentHTML = MOMENTS.map(function(m, idx){
+  return `
+  <section class="slide moment" data-mid="${m.id}" style="--acc:${m.acc};--glow:${m.glow};">
+    <div class="text">
+      <div class="eyebrow">${m.era} · 高光瞬间 ${idx+1}</div>
+      <div class="hook">${m.hook}</div>
+      <h1 class="title">${m.title}</h1>
+      <p class="story">${m.story}</p>
+      <div class="why"><div><div class="tag">为什么重要</div><p>${m.why}</p></div></div>
+      <button class="deepbtn" data-deep="${idx}" aria-label="阅读更多：${m.title.replace(/<[^>]+>/g,'')}">更多 →</button>
+    </div>
+    <div class="visual"><img src="${m.img}" alt="${m.era}" loading="${idx===0?'eager':'lazy'}" fetchpriority="${idx===0?'high':'auto'}" decoding="async" width="1200" height="900"><div class="visual-index" aria-hidden="true"><span>HUMAN MOMENT</span><strong>${String(idx+1).padStart(2,'0')}</strong><i>/ 11</i></div></div>
+  </section>`;
+}).join('');
+
+var timelineRows = MOMENTS.map(function(m, idx){
+  return `<div class="tl-row" data-jump="${idx+3}">
+    <span class="tl-era">${m.short}</span>
+    <span class="tl-dot" style="--dot:${m.acc}"></span>
+    <span class="tl-t">${m.era.split('·')[0].trim()} · ${m.title.replace(/<[^>]+>/g,'')}</span>
+  </div>`;
+}).join('');
+var tocHTML = `
+  <section class="slide toc-slide">
+    <div>
+      <div class="eyebrow" style="--acc:#e07b2a;">目录 · 时间轴总览</div>
+      <h1 class="title">翻到哪，算哪</h1>
+      <div class="timeline">${timelineRows}</div>
+    </div>
+  </section>`;
+
+stage.innerHTML = coverHTML + prefaceHTML + tocHTML + momentHTML + finaleHTML;
+
+var slides = Array.prototype.slice.call(stage.querySelectorAll('.slide'));
+var total = slides.length;
+document.getElementById('totNum').textContent = String(total).padStart(2,'0');
+var barFill = document.getElementById('barFill');
+var curNum = document.getElementById('curNum');
+var dotsBox = document.getElementById('dots');
+var dots = [];
+for(var di=0; di<total; di++){
+  (function(i){
+    var d = document.createElement('button');
+    d.className = 'dot'; d.setAttribute('aria-label','第'+(i+1)+'页');
+    d.addEventListener('click', function(e){ e.stopPropagation(); go(i); });
+    dotsBox.appendChild(d); dots.push(d);
+  })(di);
+}
+
+function render(){
+  slides.forEach(function(s,i){
+    s.classList.toggle('active', i===cur);
+    s.classList.toggle('prev', i<cur);
+  });
+  barFill.style.width = (cur/(total-1)*100) + '%';
+  var acc = slides[cur].style.getPropertyValue('--acc') || '#e07b2a';
+  barFill.style.background = acc || '#e07b2a';
+  dots.forEach(function(d,i){ d.classList.toggle('on', i===cur); });
+  curNum.textContent = String(cur+1).padStart(2,'0');
+  try{ navPrev.classList.toggle('disabled', cur===0); }catch(e){}
+  try{ navNext.classList.toggle('disabled', cur===total-1); }catch(e){}
+  try{ localStorage.setItem('funhistory-pos', cur); }catch(e){}
+  try{ history.replaceState(null,'','#p'+cur); }catch(e){}
+}
+function go(n){
+  n = Math.max(0, Math.min(total-1, n));
+  if(n===cur) return;
+  cur = n; render();
+}
+function bounce(msg){
+  stage.classList.remove('bounce');
+  void stage.offsetWidth;
+  stage.classList.add('bounce');
+  if(msg) showToast(msg, 1400);
+}
+function next(){ if(cur>=total-1){ bounce('没有更多啦，都看完了'); return; } go(cur+1); }
+function prev(){ if(cur<=0){ bounce('已经是第一页啦'); return; } go(cur-1); }
+
+var start = 0;
+var h = location.hash.match(/#p(\d+)/);
+if(h){ start = Math.min(total-1, parseInt(h[1],10)); }
+else { try{ var saved = parseInt(localStorage.getItem('funhistory-pos'),10); if(!isNaN(saved)) start = Math.min(total-1, saved); }catch(e){} }
+var cur = start;
+
+document.addEventListener('keydown', function(e){
+  if(overlay.classList.contains('open')) return;
+  if(e.target && /INPUT|TEXTAREA|SELECT/.test(e.target.tagName)) return;
+  if(['ArrowRight','ArrowDown','PageDown',' '].indexOf(e.key)>-1){ e.preventDefault(); next(); }
+  else if(['ArrowLeft','ArrowUp','PageUp'].indexOf(e.key)>-1){ e.preventDefault(); prev(); }
+  else if(e.key==='Home'){ go(0); }
+  else if(e.key==='End'){ go(total-1); }
+});
+document.getElementById('tocBtn').addEventListener('click', function(){ go(2); });
+document.getElementById('coverToc').addEventListener('click', function(){ go(2); });
+document.getElementById('startExplore').addEventListener('click', function(){ go(1); });
+try{ if(localStorage.getItem('funhistory-dark')==='1') document.documentElement.classList.add('dark'); }catch(e){}
+document.getElementById('darkBtn').addEventListener('click', function(){
+  document.documentElement.classList.toggle('dark');
+  var on = document.documentElement.classList.contains('dark');
+  try{ localStorage.setItem('funhistory-dark', on?'1':'0'); }catch(e){}
+  document.getElementById('darkLabel').textContent = on ? '深色' : '浅色';
+  showToast(on?'已切到深色模式':'已切回浅色模式', 1200);
+});
+try{ document.getElementById('darkLabel').textContent = document.documentElement.classList.contains('dark') ? '深色' : '浅色'; }catch(e){}
+document.getElementById('logo').addEventListener('click', function(){ go(0); });
+document.getElementById('randBtn').addEventListener('click', function(){
+  var r; do{ r = 3 + Math.floor(Math.random()*MOMENTS.length); }while(r===cur);
+  go(r);
+});
+
+var hintToast = document.getElementById('hintToast');
+function showToast(msg, ms){
+  hintToast.textContent = msg;
+  hintToast.classList.add('show');
+  clearTimeout(showToast._t);
+  showToast._t = setTimeout(function(){ hintToast.classList.remove('show'); }, ms||1800);
+}
+document.getElementById('shareBtn').addEventListener('click', function(){
+  var url = location.href;
+  if(navigator.share){ navigator.share({title:'人类高光瞬间', url:url}).catch(function(){}); }
+  else if(navigator.clipboard){ navigator.clipboard.writeText(url).then(function(){ showToast('本页链接已复制，发给朋友吧'); }); }
+  else { showToast(url); }
+});
+try{
+  if(!localStorage.getItem('funhistory-seen')){
+    localStorage.setItem('funhistory-seen','1');
+    var isTouch = ('ontouchstart' in window) || matchMedia('(pointer:coarse)').matches;
+    var hint = isTouch ? '左右滑动翻页' : '左右滑动 · 键盘方向键翻页';
+    setTimeout(function(){ showToast(hint, 2800); }, 1200);
+  }
+}catch(e){}
+
+stage.querySelectorAll('.tl-row').forEach(function(row){
+  row.addEventListener('click', function(){ go(parseInt(row.getAttribute('data-jump'),10)); });
+});
+
+var navPrev = document.getElementById('navPrev');
+var navNext = document.getElementById('navNext');
+navPrev.addEventListener('click', function(e){ e.stopPropagation(); prev(); });
+navNext.addEventListener('click', function(e){ e.stopPropagation(); next(); });
+
+var arrowTimer = null;
+function flashArrow(which){
+  var el = which==='prev' ? navPrev : navNext;
+  el.classList.add('show');
+  clearTimeout(arrowTimer);
+  arrowTimer = setTimeout(function(){ el.classList.remove('show'); }, 900);
+}
+document.addEventListener('mousemove', function(e){
+  if(matchMedia('(max-width:820px)').matches) return;
+  var x = e.clientX, w = window.innerWidth;
+  if(x < w*0.14){ navPrev.classList.add('show'); navNext.classList.remove('show'); }
+  else if(x > w*0.86){ navNext.classList.add('show'); navPrev.classList.remove('show'); }
+  else { navPrev.classList.remove('show'); navNext.classList.remove('show'); }
+});
+document.addEventListener('mouseleave', function(){ navPrev.classList.remove('show'); navNext.classList.remove('show'); });
+document.addEventListener('touchstart', function(e){
+  var x = e.touches[0].clientX, w = window.innerWidth;
+  if(x < w*0.18) flashArrow('prev');
+  else if(x > w*0.82) flashArrow('next');
+}, {passive:true});
+
+var lastDeepTrigger = null;
+function openDeep(idx){
+  var m = MOMENTS[idx];
+  lastDeepTrigger = document.activeElement;
+  var relHtml = m.rel.map(function(rid){
+    var rm = MOMENTS.find(function(x){return x.id===rid;});
+    return `<button class="chip" data-jump-mid="${rid}">→ ${rm.era.split('·')[0].trim()} · ${rm.title.replace(/<[^>]+>/g,'')}</button>`;
+  }).join('');
+  ovCard.innerHTML = `
+    <h2 id="ovTitle" tabindex="-1" style="color:${m.acc}">${m.title.replace(/<[^>]+>/g,'')}</h2>
+    <div class="ov-era">${m.era}</div>
+    <div class="ov-sec"><h4>时代坐标</h4><p>${m.ctx}</p></div>
+    <div class="ov-egg"><p style="font-size:14px;color:var(--ink);"><b style="color:${m.acc}">你知道吗 · </b>${m.egg}</p></div>
+    <div class="ov-sec"><h4>深度解读</h4>${m.deep.map(function(d){return '<p style="margin-bottom:10px">'+d+'</p>';}).join('')}</div>`;
+  overlay.classList.add('open');
+  overlay.setAttribute('aria-hidden','false');
+  ovCard.querySelector('h2').focus();
+  ovCard.querySelectorAll('.chip').forEach(function(c){
+    c.addEventListener('click', function(){
+      var rid = c.getAttribute('data-jump-mid');
+      var target = MOMENTS.findIndex(function(x){return x.id===rid;}) + 3;
+      closeDeep(); go(target);
+    });
+  });
+}
+function closeDeep(){
+  overlay.classList.remove('open');
+  overlay.setAttribute('aria-hidden','true');
+  if(lastDeepTrigger && typeof lastDeepTrigger.focus==='function') lastDeepTrigger.focus();
+}
+document.getElementById('ovClose').addEventListener('click', closeDeep);
+document.addEventListener('keydown', function(e){ if(e.key==='Escape' && overlay.classList.contains('open')) closeDeep(); });
+overlay.addEventListener('click', function(e){ if(e.target===overlay) closeDeep(); });
+stage.addEventListener('click', function(e){
+  var btn = e.target.closest('[data-deep]');
+  if(btn){ openDeep(parseInt(btn.getAttribute('data-deep'),10)); return; }
+  if(e.target.closest('button, a, .tl-row, .chip, .tbtn, input, .logo, img')) return;
+  var x = (e.clientX != null) ? e.clientX : (e.touches && e.touches[0].clientX) || window.innerWidth/2;
+  if(x < window.innerWidth*0.06) prev();
+  else if(x > window.innerWidth*0.94) next();
+});
+
+var tx=0, ty=0, touchStartTarget=null;
+document.addEventListener('touchstart', function(e){
+  if(!e.touches.length) return;
+  tx=e.touches[0].clientX; ty=e.touches[0].clientY; touchStartTarget=e.target;
+}, {passive:true});
+document.addEventListener('touchend', function(e){
+  if(overlay.classList.contains('open') || !e.changedTouches.length) return;
+  if(touchStartTarget && touchStartTarget.closest && touchStartTarget.closest('button, a, input, textarea, select, .tl-row')) return;
+  var dx = e.changedTouches[0].clientX - tx;
+  var dy = e.changedTouches[0].clientY - ty;
+  if(Math.abs(dx)>60 && Math.abs(dx)>Math.abs(dy)*1.2){ if(dx<0) next(); else prev(); }
+}, {passive:true});
+
+render();
+</script>
+</body>
+</html>
