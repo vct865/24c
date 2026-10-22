@@ -1,0 +1,140 @@
+{
+  "src": "人类高光瞬间.html",
+  "url": "file:///D:/Desktop/funhistory/%E4%BA%BA%E7%B1%BB%E9%AB%98%E5%85%89%E7%9E%AC%E9%97%B4.html",
+  "outdir": "D:\\Desktop\\funhistory\\_shots",
+  "include": [
+    "lint",
+    "screenshots",
+    "structure"
+  ],
+  "shots": {
+    "desktop": {
+      "screenshot": "D:\\Desktop\\funhistory\\_shots\\人类高光瞬间_desktop.jpg",
+      "screenshotBytes": 27675,
+      "truncated": false,
+      "structure": {
+        "title": "人类高光瞬间 · 改变世界的 11 个「就那一下」",
+        "firstH1": "人类高光瞬间",
+        "viewport": {
+          "w": 1422,
+          "h": 748
+        },
+        "fullpage": {
+          "w": 1422,
+          "h": 748
+        },
+        "counts": {
+          "section": 15,
+          "h1": 15,
+          "h2": 0,
+          "img": 22,
+          "canvas": 0,
+          "svg": 2,
+          "links": 0,
+          "buttons": 30
+        }
+      },
+      "consoleErrors": [],
+      "consoleWarnings": [],
+      "horizontalOverflow": [],
+      "resourceErrors": [],
+      "pseudoOverflow": [
+        {
+          "hostTag": "section",
+          "hostRect": [
+            0,
+            0,
+            1422,
+            748
+          ],
+          "pseudo": "::before",
+          "content": "11",
+          "widthPx": 399.4,
+          "contentWidthPx": 399.4,
+          "textWidthPx": 447.7,
+          "overflowPx": 48.3
+        }
+      ],
+      "pseudoOverflowHint": "含义：::before / ::after 伪元素的 content 文字被自身固定 width 装不下（视觉上表现为字溢出小方块/圆点、或字被居中后飘到色块两侧脱离背景）。三重触发：content 非空 + 显式 width（非 auto/百分比）+ measureText > contentWidth × 1.1。典型 case：`content:attr(data-i)` 的序号徽章、`.tl-item::before` 的日期徽标，data 值从 1 位变成 2/3 位就撑破。已过滤：display:none、ellipsis 截断、图标字体（FontAwesome/Material/iconfont）、尺寸 < 4×4。 | 修法：把 `width: Npx` 改成 `min-width: Npx; padding: 0 Xpx;`，配合 `display: inline-flex` 让盒子随内容自适应；或者收紧数据保证 content 位数固定。 | 豁免：(1) 故意的装饰性溢出（大号引号从盒子里探出来做视觉效果）——对着截图确认后忽略；(2) 用 web font 但 fallback 字体量出来偏胖导致虚报——检查 font-family 是否加载完成；(3) overflowPx < 3 且 contentWidth ≥ 20px 的低幅度告警，通常是 measureText 精度问题。",
+      "reportSource": "cdp"
+    }
+  },
+  "engine": "chrome_cli",
+  "chromiumExec": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "evalIgnored": "chrome_cli 降级模式不支持 --eval 注入，本次已忽略；如需注入 JS，请装 playwright。",
+  "engineDegraded": true,
+  "engineDegradedReason": "playwright 未装",
+  "elapsedSec": 4.47,
+  "schemaVersion": 2,
+  "status": "warning",
+  "engineInfo": {
+    "name": "chrome_cli",
+    "degraded": true,
+    "degradedReasons": [
+      "playwright 未装"
+    ]
+  },
+  "input": {
+    "original": "人类高光瞬间.html",
+    "resolvedPath": "D:\\Desktop\\funhistory\\人类高光瞬间.html",
+    "baseUrl": "file:///D:/Desktop/funhistory/%E4%BA%BA%E7%B1%BB%E9%AB%98%E5%85%89%E7%9E%AC%E9%97%B4.html",
+    "protocol": "file",
+    "cwd": "D:\\Desktop\\funhistory",
+    "mediaMode": {
+      "reducedMotion": true
+    }
+  },
+  "artifacts": {
+    "screenshots": [
+      {
+        "viewport": "desktop",
+        "path": "D:\\Desktop\\funhistory\\_shots\\人类高光瞬间_desktop.jpg",
+        "size": 27675,
+        "visualCoverage": {
+          "complete": true,
+          "reason": null
+        }
+      }
+    ]
+  },
+  "summary": {
+    "blocker": 0,
+    "error": 0,
+    "warning": 1,
+    "info": 0
+  },
+  "findings": [
+    {
+      "ruleId": "pseudoOverflow",
+      "severity": "warning",
+      "kind": "layout",
+      "viewport": "desktop",
+      "selector": null,
+      "evidence": {
+        "hostTag": "section",
+        "hostRect": [
+          0,
+          0,
+          1422,
+          748
+        ],
+        "pseudo": "::before",
+        "content": "11",
+        "widthPx": 399.4,
+        "contentWidthPx": 399.4,
+        "textWidthPx": 447.7,
+        "overflowPx": 48.3
+      },
+      "dedupeKey": "pseudoOverflow|desktop||0"
+    }
+  ],
+  "prioritizedActions": [
+    {
+      "ruleId": "pseudoOverflow",
+      "severity": "warning",
+      "viewport": "desktop",
+      "selector": null
+    }
+  ],
+  "reportPath": "D:\\Desktop\\funhistory\\_shots\\report.json"
+}
